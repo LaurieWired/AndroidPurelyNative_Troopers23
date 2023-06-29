@@ -1,4 +1,4 @@
-![Picture1](https://github.com/LaurieWired/AndroidPurelyNative_Troopers23/assets/123765654/d71f554e-6fa0-49ed-a604-3c1967462716)
+![Picture1](https://github.com/LaurieWired/AndroidPurelyNative_Troopers23/assets/123765654/fd7fd7ac-735a-4fcf-89cc-1d8a869b81d0)
 
 # Beyond Java: Obfuscating Android Apps with Purely Native Code
 During this talk I demonstrate how to use purely native code as an obfuscation technique in Android. Together, we rewrite a standard Android Java applicaiton in C++ and remove all traces of the entrypoint. We even mask our Android framework API calls by using direct Binder invocations and messages.
