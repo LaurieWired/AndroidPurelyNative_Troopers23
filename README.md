@@ -3,6 +3,15 @@
 # Beyond Java: Obfuscating Android Apps with Purely Native Code
 During this talk I demonstrate how to use purely native code as an obfuscation technique in Android. Together, we rewrite a standard Android Java applicaiton in C++ and remove all traces of the entrypoint. We even mask our Android framework API calls by using direct Binder invocations and messages.
 
+## Supporting Code
+- AnubisBenignPurelyNative.zip
+  - Purely native application based on benign fake Anubis sample
+  - Password: infected1
+- DirectBinderInvocations.zip
+  - Examples in Java and C++ for direct Binder invocations of dial() method
+- PurelyNativeEmpty_Source.zip
+  - Example purely native empty application
+
 ## Tools
 - [JADX](https://github.com/skylot/jadx)
 - [Android Studio](https://developer.android.com/studio)
